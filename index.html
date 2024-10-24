@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <h1>Encuesta de satisfacción</h1>
+    <form action="#" method="post">
+        <label for="nombre">Nombre completo: </label>
+        <input type="text" id="nombre" required name="nombre">
+        <br>
+        <br>
+        <label for="correo">Correo electronico: </label>
+        <input type="email" id="correo" required name="correo">
+        <br>
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" required name="edad">
+        <br>
+        <br><label for="satisfacción">Nivel de satisfacción con el servicio</label>
+        <select name="pais" id="pais">
+            <option value="excelente">Excelente</option>
+            <option value="bueno">Bueno</option>
+            <option value="regular">Regular</option>
+            <option value="malo">Malo</option>
+        </select>
+        <br>
+        <br>
+        <label for="frecuencia">¿Con que frecuencia utiliza los servicios?</label><br>
+        <input type="radio" id="diario" name="utilizado">
+        <label for="diario">Diario</label>
+        <br>
+        <input type="radio" id="semanal" name="utilizando">
+        <label for="semanal">Semanal</label>
+        <br>
+        <input type="radio" id="mensual" name="utilizando">
+        <label for="mensual">Mensual</label>
+        <br>
+        <br>
+        <label for="utilizado">¿Que servicios has utilizado?</label><br><br>
+        <input type="checkbox" id="soporte" name="utilizado">
+        <label for="soporte">Soporte técnico</label><br>
+        <input type="checkbox" id="consultoria" name="utilizado">
+        <label for="capacitacion">Capacitación</label><br>
+        <br>
+        <label for="sugerencias">Sugerencias para mejorar los servicios</label><br>
+        <textarea name="sugerencias" id="sugerencias" cols="60" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar encuesta">
+    </form>
+ 
+</body>
+</html>
